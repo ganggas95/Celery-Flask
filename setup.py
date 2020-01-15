@@ -5,7 +5,7 @@ with open ("README.md", "r") as fh:
 
 setuptools.setup(
     name="CeleryFlask",
-    version="0.1a1",
+    version="0.0.1",
     author="Ganggas95",
     author_email="subhannizar25@gmail.com",
     description="""Extension Flask for integration with celery""",
@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/ganggas95/celery-flask",
     packages=setuptools.find_packages(),
-    py_module=["celery-flask"],
+    py_module=["celery_flask"],
     include_package_data=True,
     install_requires=[
         'Flask >= 1.0',
