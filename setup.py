@@ -1,11 +1,11 @@
 import setuptools
 
-with open ("README.md", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="CeleryFlask",
-    version="0.0.1",
+    version="0.0.2",
     author="Ganggas95",
     author_email="subhannizar25@gmail.com",
     description="""Extension Flask for integration with celery""",
