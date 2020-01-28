@@ -25,6 +25,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Topic :: Software Development :: Libraries :: Python Modules",
-        "Topic :: Database"
+        "Topic :: Database :: Task :: Redis"
     ],
 )
